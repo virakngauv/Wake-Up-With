@@ -21,9 +21,13 @@ class RegisterViewController: UIViewController {
         self.navigationController?.navigationBar.isHidden = true
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
     
     @IBAction func logInWithEmail(_ sender: UIButton) {
-        
+        self.navigationController?.navigationBar.isHidden = false
     }
     
 }

@@ -24,7 +24,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmO-up-NoL">
                                 <rect key="frame" x="0.0" y="310.5" width="375" height="45"/>
-                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.22352941176470589" green="0.34509803921568627" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="07a-H7-Ncr"/>
                                 </constraints>
@@ -32,6 +32,9 @@
                                 <state key="normal" title="Log In with Facebook">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="logInWithFacebook:" destination="31I-cC-KGu" eventType="touchUpInside" id="Lte-O6-FU6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuN-yD-AgC">
                                 <rect key="frame" x="0.0" y="355.5" width="375" height="45"/>
@@ -47,7 +50,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FS4-pA-b3y">
                                 <rect key="frame" x="0.0" y="266" width="375" height="45"/>
-                                <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.61960784313725492" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Log In with Google">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -120,14 +123,14 @@
                                         <rect key="frame" x="0.0" y="111" width="275" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqq-zr-7Or">
-                                                <rect key="frame" x="0.0" y="0.0" width="233" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                                 <state key="normal" title="Forgot Password?">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6L-eT-uU4">
-                                                <rect key="frame" x="233" y="0.0" width="42" height="30"/>
+                                                <rect key="frame" x="71" y="0.0" width="204" height="30"/>
                                                 <state key="normal" title="Log In"/>
                                             </button>
                                         </subviews>
